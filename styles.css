@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* Inside your CSS file or styles in JS */
+.kanban-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  background-color: #f4f4f4;
+}
+
+.column {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Inside your CSS file or styles in JS */
+.card {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: -10px;
+}
+
+.card-id {
+  padding: 3px;
+  border-radius: 4px;
+  color: darg; /* Set the text color to grey */
+  background-color: white; /* Set the background color to white */
+}
+.Dis {
+  background-color: white;
+  height: 5px;
+  padding: 15px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.title-circle {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f4f4f4;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.bg {
+  background-color: #f4f4f4;
+}
+.GO {
+  padding: 2px;
+}
+.pd {
+  padding: 3px;
+  background-color: white;
+  border-radius: 15%;
+}
+.us {
+  align: center;
+}
